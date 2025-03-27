@@ -4,7 +4,6 @@ int main(){
     float a;
     scanf("%f",n);
     scanf("%f",a);
-   float b=(a*n);
-    printf(b);
+    printf("%f",a*n)
     return 0;
 }
