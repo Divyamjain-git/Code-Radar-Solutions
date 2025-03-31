@@ -17,11 +17,11 @@ int main (){
     }
 
     for (int i=0;i<n;i++)
-        if (ans[i]==0){
+      {  if (ans[i]==0){
             printf("%d",i);
             break;
         }
-        
+        }
          
         
 }
