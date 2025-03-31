@@ -17,7 +17,7 @@ int main (){
             }
     }   
 
-    for(int i=j+1;i<n;i++){
+    for(int i=j;i<n;i++){
         ans[i]=0;
     }
   
