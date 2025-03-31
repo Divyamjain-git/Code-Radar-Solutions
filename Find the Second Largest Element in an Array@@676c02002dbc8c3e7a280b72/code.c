@@ -21,5 +21,7 @@ int main (){
             sec = arr[i];
 
     }
+    if (sec==INT_MIN)
+        printf("%d",-1);
     printf("%d", sec);
 }
