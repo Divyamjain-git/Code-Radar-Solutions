@@ -23,5 +23,6 @@ int main (){
     }
     if (sec==INT_MIN)
         printf("%d",-1);
+    else 
     printf("%d", sec);
 }
