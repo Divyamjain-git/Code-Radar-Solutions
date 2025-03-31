@@ -13,10 +13,7 @@ int main (){
                 printf("%d",arr[i]);
                 return 0;
             }
-        if (i==n-2){
-            printf("%d",arr[i+1]);
-            return 0 ;
-        }
+
     }
     printf("%d",-1);
 }
