@@ -13,7 +13,7 @@ int main (){
     
     for (int i=0;i<n;i++){
         if (arr[i]>0 && arr[i]<=n)
-            ans[i]=1;
+            ans[arr[i]]=1;
     }
 
     for (int i=0;i<n;i++)
@@ -24,4 +24,4 @@ int main (){
         
          
         
-}
+} 
