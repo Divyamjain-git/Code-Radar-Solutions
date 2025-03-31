@@ -15,6 +15,9 @@ int main (){
             ans += rem;
             m = m/10;
         }
-        printf("%d ",ans);
+        if (ans<0)
+            printf("%d ",-1*ans);
+        else 
+            printf("%d ",ans);
     }
 }
