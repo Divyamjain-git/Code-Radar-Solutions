@@ -9,7 +9,7 @@ int main (){
         scanf("%d",&arr[i]);
     int ans[100];
     for(int i=0;i<n+1;i++)
-        arr[i]=0;
+        ans[i]=0;
     
     for (int i=0;i<n;i++){
         if (arr[i]>0 && arr[i]<=n)
@@ -17,11 +17,11 @@ int main (){
     }
 
     for (int i=0;i<n;i++)
-      {  if (ans[i]==0){
+       if (ans[i]==0){
             printf("%d",i);
             break;
         }
-        }
+        
          
         
 }
