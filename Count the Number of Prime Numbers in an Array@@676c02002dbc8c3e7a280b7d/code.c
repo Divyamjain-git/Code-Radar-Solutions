@@ -13,7 +13,7 @@ int main (){
         if (arr[i]<2)
             continue ;
         for(int j=2;j<i;j++){
-            if (i%j==0){
+            if (arr[i]%j==0){
                 prime = 0;
                 break;
                 }
